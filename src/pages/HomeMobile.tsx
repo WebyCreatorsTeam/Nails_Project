@@ -2,7 +2,8 @@ import Logo from "../images/logoimg.png";
 import RightLeave from "../images/leftLeave.png";
 import Leftleave from "../images/rightLeave.png";
 import { styleHome } from "../styles/homeMobileStyle/bgHomeStyle";
-const Home: any = () => {
+import { FC } from "react";
+const Home: FC = () => {
   return (
     <header id="#home" className="header_mobile" style={styleHome}>
       <div className="header__logo_mobile">

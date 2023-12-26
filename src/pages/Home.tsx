@@ -1,13 +1,12 @@
+import { FC } from "react";
 import HomeImg from "../images/homeimg.png";
 import Logo from "../images/logoimg.png";
 import { styleLeft, styleRight } from "../styles/homeMobileStyle/bgHomeStyle";
 
-const Home: any = () => { 
-  
+const Home: FC = () => {
+
   return (
     <header id="#home" className="header" style={styleRight}>
-     
-
       <nav className="header__nav_comp" style={styleLeft}>
         <a className="header__nav_link link-show" href="#home">
           Портфолио
