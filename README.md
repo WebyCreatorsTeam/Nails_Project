@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# Anastasiya Ganeeva
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We've developed a website for Anastasiya Ganeeva's nail salon, aimed at assisting both her existing customers and newcomers in discovering her services. This project serves as a conclusion to our portfolio at Weby Creator Team, and we utilized React in its development
 
-## Available Scripts
+## Challenges
 
-In the project directory, you can run:
+We encountered several challenges during our project. Initially, we attempted to integrate Google Translator to enable the page's translation from Russian, aiming to reach a broader customer base.
+Unfortunately, the translation disappeared after refreshing or navigating to a new page. Despite extensive internet research, we couldn't find a solution to fix this issue. We experimented with relocating the function and script, but to no avail. We're determined to explore alternative solutions in the near future.
 
-### `npm start`
+Additionally, we faced difficulty creating separate components for the home: one for mobile view and another for computer and tablet displays. Initially, this seemed unsolvable, but our quest for answers led us to 'react-responsive.' This tool enabled us to utilize queries and 'useMedia' to identify the current view.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+As a newly formed team with no prior collaborative experience, this project marked our maiden successful deployment. Despite the challenges, it's been a valuable learning experience for us.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Install and Run
 
-### `npm test`
+Install the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm i
+```
 
-### `npm run build`
+npm i react-iframe
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm i react-responsive
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+To run the project
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+## How to Use
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You have the option to scroll down to view the photos, prices, and contact details, or simply use the navigation bar to directly access the section you're interested in. Within the 'Photo,' 'Price,' and 'Contact' sections, you'll find a WhatsApp link to easily get in touch with Anastasiya. Additionally, by clicking on 'Instagram,' you can explore more of her completed work
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Made by
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-   [Shay Foyer](https://github.com/shayfoyer)
+-   [Daniel Elias](https://github.com/daniel103)
+-   [Kristina Stasevich](https://github.com/Kristina-web-development)
+-   [Voronina Julia](https://www.linkedin.com/in/julia-voronina-660a6a28b/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Weby Creators Team](https://github.com/WebyCreatorsTeame)
