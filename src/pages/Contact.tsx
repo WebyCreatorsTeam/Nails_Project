@@ -5,15 +5,17 @@ import Phone from "../images/Telephone.png";
 import Place from "../images/vectorLocation.png";
 import Iframe from "react-iframe";
 import { FC } from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact: FC = () => {
+    const [t] = useTranslation("global");
     return (
         <div
             id="contact"
             className="contact__contents"
         >
             <div className="contact__width">
-                <h2 className="contact_title">Контакты</h2>
+                <h2 className="contact_title">{t('contact.h2')}</h2>
                 <div className="contact_container centers">
                     <Iframe
                         className="contact_maps"
@@ -37,7 +39,7 @@ const Contact: FC = () => {
                             />
 
                             <p className="contact_text">
-                                Кирьят Ям, Гистрадут 8 <br />
+                               {t('contact.p1')} <br />
                                 קרית ים ,ההסתדרות 8
                             </p>
                         </div>
@@ -54,23 +56,23 @@ const Contact: FC = () => {
                                 +972 53-205-2976
                             </a>
                         </div>
-                        {/* <div className="contact_button"> */}
+                    
                         <a
                             href="https://wa.me/+972532052976"
                             target="_blank"
                             rel="noreferrer"
                             className="contact_button-whatsapp"
                         >
-                            {/* <div className="contact_button-whatsapp"> */}
+                          
                             <p className="contact_button-text">
-                                Записаться в WhatsApp
+                            {t('contact.p2')}
                             </p>
                             <img
                                 className="contact_button-mobileiconwapp"
                                 src={Whatsapp}
                                 alt="whattsapp logo"
                             />
-                            {/* </div> */}
+                          
                         </a>
                         <a
                             href="https://maps.app.goo.gl/7eyDYbMuYvR7RVvaA"
@@ -78,16 +80,16 @@ const Contact: FC = () => {
                             rel="noreferrer"
                             className=" contact_button-map"
                         >
-                            {/* <div className="contact_button-map"> */}
+                           
                             <p className="contact_button-text">
-                                Открыть в GoogleMaps
+                            {t('contact.p3')}
                             </p>
                             <img
                                 className="contact_button-mobileiconmap"
                                 src={Map}
                                 alt="map logo"
                             />
-                            {/* </div> */}
+                            
                         </a>
                         <a
                             href="https://waze.com/ul/hsvbfyhm1j"
@@ -95,16 +97,16 @@ const Contact: FC = () => {
                             rel="noreferrer"
                             className="contact_button-waze"
                         >
-                            {/* <div className="contact_button-waze"> */}
+                  
                             <p className="contact_button-text">
-                                Открыть в Waze
+                            {t('contact.p4')}
                             </p>
                             <img
                                 className="contact_button-mobileiconwaze"
                                 src={Waze}
                                 alt="waze logo"
                             />
-                            {/* </div> */}
+                          
                         </a>
                     </div>
                 </div>
